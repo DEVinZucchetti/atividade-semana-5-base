@@ -25,7 +25,7 @@ Procurar distribuir os exercícios de forma equivalente (ou o mais próximo poss
 
 Uma `branch` para cada exercício deve ser criada pela respectiva responsável, onde será desenvolvida a solução do mesmo.  
 Após o desenvolvimento, a pessoa responsável deve abrir uma `Pull Request` para revisão e posterior `merge`.  
-As demais pessoas (não responsáveis pelo exercício da PR) devem revisar a PR para converir se a solução é satisfatória e contempla os requisitos do enunciado do exercício.  
+As demais pessoas (não responsáveis pelo exercício da PR) devem revisar a PR para conferir se a solução é satisfatória e contempla os requisitos do enunciado do exercício.  
 Se necessário, deixar comentários na PR sobre os problemas e sugestões de melhoria.
 
 ## Dica
