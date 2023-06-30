@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    height: 500px;
+    gap: 20px;
+    background-color: rgb(77, 63, 182);
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.main,
+input,
+button {
+    width: 80%;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.input {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    box-sizing: border-box;
+    padding-left: 10px
+}
+
+.botao,
+.botao2 {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    box-sizing: border-box;
+}
