@@ -1,6 +1,6 @@
 console.log("m1-s05-e1");
 
-function classificaIdade(idade) {
+const classificaIdade = (idade) => {
   if (idade <= 15) {
     return "Pessoa Jovem.";
   }
@@ -10,7 +10,7 @@ function classificaIdade(idade) {
   }
 
   return "Pessoa Idosa";
-}
+};
 
 const idade = prompt("Qual sua idade?");
 
