@@ -1,10 +1,19 @@
 console.log("m1-s05-e1");
 
-const idade = prompt("Informe sua idade:");
+const classificaIdade = (idade) => {
+  if (idade <= 15) {
+    return "Pessoa Jovem.";
+  }
 
-// afazer: realizar as comparações necessárias e exibir no alert
+  if (idade <= 64) {
+    return "Pessoa Adulta";
+  }
 
-// exemplo de concatenação de strings com string template
-console.log(`Idade informada: ${idade}`);
+  return "Pessoa Idosa";
+};
 
-alert("Conclúa o desenvolvimento do exercício.");
+const idade = prompt("Qual sua idade?");
+
+const resultado = classificaIdade(idade);
+
+alert(resultado);
