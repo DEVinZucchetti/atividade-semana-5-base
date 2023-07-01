@@ -16,8 +16,8 @@ const numero = prompt("Informe um número");
 
 calculaTabuada(numero);
 
+// calculaTabuada(2);
 /*console:
-2 * 0 = 0
 2 * 1 = 2
 2 * 2 = 4
 2 * 3 = 6
