@@ -6,6 +6,13 @@
     <title>Exercício 8 | M1-S05</title>
     <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="/assets/styles.css" />
+    <style>
+      #formulario {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -15,7 +22,25 @@
 
     <main>
       <h2>Construa uma Calculadora de P.A.</h2>
-      <p>Abra o console e verifique o resultado.</p>
+      <p>Informe os valores para o cálculo.</p>
+
+      <div id="formulario">
+        <label for="valor-inicial">Valor Inicial</label>
+        <input type="text" id="valor-inicial" value="0" />
+
+        <label for="valor-raiz">Valor Raiz</label>
+        <input type="text" id="valor-raiz" value="0" />
+
+        <label for="valor-qtd-termos">Valor Raiz</label>
+        <input type="text" id="valor-qtd-termos" value="0" />
+
+        <div>
+          <button id="botao-calcular-pa">Calcular PA</button>
+          <button id="botao-calcular-pg">Calcular PG</button>
+        </div>
+      </div>
+
+      <br />
       <a href="/">Voltar</a>
     </main>
 
